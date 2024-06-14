@@ -5,10 +5,6 @@
 //another thing to keep in mind while coding is of readability
 
 
-
-
-
-
 /*Datatypes(primitive)
 1.number ->generally is in the range of 2**53
 2.bigint->when we need to use much bigger values then we use bigint
@@ -20,6 +16,7 @@
 
 type of undefined is undefined 
 type of null is object
+type of Nan is number
 
 Objects
 
