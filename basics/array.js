@@ -16,6 +16,10 @@ const arr1=[12,16,18,19,20]
 const arr2=[25,28,29,31,22]
 const arr3=arr1.concat(arr2)
 console.log(arr3)
+//another way is to use the spread operator
+const arr4=[...arr1,...arr2] //example to remember is to dropping a glass of water from top and then the entire glass breaks 
+
+console.log("*****",arr4)
 
 //similarly use the push method to add the elements to an array
 //pop removes the element from the last
