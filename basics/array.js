@@ -47,3 +47,22 @@ console.log("A",newarr1)
 newarr2=console.log("B",newArray.splice(1,3))
 console.log(newArray) //here in case of splice the original array also gets modified 
 
+//if we have an array with other arrays inside it we can use the .flat() it flattens the entire array of arrays to a single array
+const newarr5=[2,3,5,[6,7,8],[9,10,11],[1,5,8,9]]
+console.log(newarr5.flat(Infinity))
+
+//first check whether the given parameter passed is an array or not
+console.log(Array.isArray("ronita"))
+
+//next is to convert to array
+console.log(Array.from("ronnn")) //so here it is converted to array
+
+//we can convert some variables to a single array using .of()
+const name1="hanna"
+const name2="riya"
+const name3="tina"
+
+console.log(Array.of(name1,name2,name3))
+
+
+
