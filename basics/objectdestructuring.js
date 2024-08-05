@@ -10,3 +10,13 @@ const {name1,price}=courseDetails
 
 console.log(name1)
 console.log(price)
+
+//in case of apis the data is in the form of json where the keys and values both are in the form of string 
+// {
+//     "name2":"abc",
+//     "price":126,
+// }
+
+
+
+
